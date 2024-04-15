@@ -7,5 +7,7 @@ alertmanager:
         paths:
           - path: /alertmanager
             pathType: ImplementationSpecific
+  extraFlags:
+    - alertmanager.url=/alertmanager/
   persistence:
     enabled: false

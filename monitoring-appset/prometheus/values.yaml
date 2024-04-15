@@ -14,5 +14,7 @@ prometheus:
       path: /prometheus
       hosts:
         - "monitoring-educates-cli-w01-s002.172.20.10.2.nip.io"
+    extraFlags:
+      - web.external-url=/prometheus/
     persistentVolume:
       enabled: false
