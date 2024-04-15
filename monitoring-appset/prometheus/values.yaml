@@ -1,4 +1,12 @@
 ---
+alertmanager:
+  enabled: false
+kube-state-metrics:
+  enabled: false
+prometheus-node-exporter:
+  enabled: false
+prometheus-pushgateway:
+  enabled: false
 server:
   ingress:
     enabled: true
