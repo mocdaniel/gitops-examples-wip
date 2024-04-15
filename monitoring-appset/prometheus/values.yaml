@@ -9,12 +9,5 @@ prometheus:
   prometheus-pushgateway:
     enabled: false
   server:
-    ingress:
-      enabled: true
-      path: /prometheus
-      hosts:
-        - "monitoring-educates-cli-w01-s002.172.20.10.2.nip.io"
-    extraFlags:
-      - web.external-url=/prometheus/
     persistentVolume:
       enabled: false
