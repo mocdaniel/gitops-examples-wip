@@ -13,6 +13,6 @@ prometheus:
       enabled: true
       path: /prometheus
       hosts:
-        - ""
+        - "monitoring-educates-cli-w01-s002.172.20.10.2.nip.io"
     persistentVolume:
       enabled: false

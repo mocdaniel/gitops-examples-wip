@@ -3,7 +3,7 @@ alertmanager:
   ingress:
     enabled: true
     hosts:
-      - host: ""
+      - host: "monitoring-educates-cli-w01-s002.172.20.10.2.nip.io"
         paths:
           - path: /alertmanager
             pathType: ImplementationSpecific
