@@ -1,0 +1,4 @@
+---
+apiVersion: v2
+name: prometheus
+version: 25.19.1

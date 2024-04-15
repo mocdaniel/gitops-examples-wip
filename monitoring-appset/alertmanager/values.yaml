@@ -1,0 +1,10 @@
+---
+ingress:
+  enabled: true
+  hosts:
+    - host: "{{ .Values.ingress_domain }}"
+      paths:
+        - path: /alertmanager
+          pathType: ImplementationSpecific
+persistence:
+  enabled: false
