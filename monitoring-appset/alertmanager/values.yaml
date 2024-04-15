@@ -3,7 +3,7 @@ alertmanager:
   ingress:
     enabled: true
     hosts:
-      - host: "{{ .Values.ingress_domain }}"
+      - host: ""
         paths:
           - path: /alertmanager
             pathType: ImplementationSpecific

@@ -13,6 +13,6 @@ prometheus:
       enabled: true
       path: /prometheus
       hosts:
-        - "{{ .Values.ingress_domain }}"
+        - ""
     persistentVolume:
       enabled: false
